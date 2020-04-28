@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  background: black;
+} 
+
+#header {
+  position: fixed;
+ 
+  background: green;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+}
+
+.ul {
+  list-style-type: none;
+  justify-content: space-     around;
+  display: flex;
+  font-weight: bold;
+  text-transform:          uppercase;
+  justify-content: space-around;
+  
+}
+
+#header-img{
+  width: 80px;
+  height:50px;
+  border: 2px;
+}
+
+#submit{
+  text-transform:uppercase;
+  background-                 color:lightgreen;
+  font-weight: bold;
+}
+#whatwedo {
+  text-align: left;
+  flex-wrap; wrap;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  color: green;
+}
+
+#form {
+  text-align: center;
+  color: green;
+}
+
+
+}
+
+#video {
+  margin-left: 150px;
+  width: 560px;
+  height:315px;
+  margin-right:150;
+}
+
+@media only screen and (max-width: 600px) 
+{
+
+#nav-bar{
+  background-color: green;
+
+}
+
+.contactus{
+   display: flex;
+  flex-direction: column;
+ }
