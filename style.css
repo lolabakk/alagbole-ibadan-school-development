@@ -1,23 +1,29 @@
+
 body {
   margin: 0px;
-  background: black;
+  background: rgb(54, 35, 52);
 } 
 
 #header {
   position: fixed;
  
-  background: green;
+  background: rgb(221, 189, 217);
   top: 0px;
   width: 100%;
   height: 100px;
 }
 
+a {
+  color: white;
+  
+}
+
 .ul {
   list-style-type: none;
-  justify-content: space-     around;
+  justify-content: space- around;
   display: flex;
   font-weight: bold;
-  text-transform:          uppercase;
+  text-transform: uppercase;
   justify-content: space-around;
   
 }
@@ -30,7 +36,7 @@ body {
 
 #submit{
   text-transform:uppercase;
-  background-                 color:lightgreen;
+  background-color:white;
   font-weight: bold;
 }
 #whatwedo {
@@ -41,16 +47,17 @@ body {
 
 h2 {
   text-align: center;
-  font-size: 28px;
-  color: green;
+  font-size: 40px;
+  color: white;
 }
 
 #form {
   text-align: center;
-  color: green;
+  color: white;
 }
 
-
+#email{
+  text-align: center;
 }
 
 #video {
@@ -62,13 +69,31 @@ h2 {
 
 @media only screen and (max-width: 600px) 
 {
-
+}
 #nav-bar{
   background-color: green;
-
 }
 
-.contactus{
+#contactus{
    display: flex;
   flex-direction: column;
  }
+
+ * {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+   
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
