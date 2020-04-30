@@ -2,6 +2,7 @@
 body {
   margin: 0px;
   background: rgb(54, 35, 52);
+ 
 } 
 
 #header {
@@ -16,6 +17,10 @@ body {
 a {
   color: white;
   
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
 
 .ul {
@@ -74,11 +79,6 @@ h2 {
   background-color: green;
 }
 
-#contactus{
-   display: flex;
-  flex-direction: column;
- }
-
  * {
   box-sizing: border-box;
 }
@@ -96,4 +96,8 @@ h2 {
   content: "";
   display: table;
   clear: both;
+}
+h3{
+  font-size: 35px;
+  text-align: center;
 }
